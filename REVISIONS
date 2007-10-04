@@ -1,0 +1,8 @@
+Earlier versions of this package were made by Stephen Portnoy, and Tereza Neocleous.
+Some modifications mainly to the documentation and methods handling were made by RK
+starting with version 0.0.6.
+
+Version 0.3  August 2007
+
+1.  Fixed a bug in the boot.crq which led to double weighting in the bootstrap.
+~

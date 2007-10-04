@@ -10,14 +10,14 @@ boot.crq <- function(x, y, c, taus, R=100,  mboot,  bmethod = "xy-pair", ...)
 	    		w <- table(sample(1:n,mboot,replace=TRUE))
     			s <- as.numeric(names(w))
     			w <- as.numeric(w)
-			yb <- w*y[s]
-			xb <- w*x[s,]
+			yb <- y[s]
+			xb <- x[s,]
 			cb <- c[s]
 			}
 		else if(bmethod == "Bose"){
 			w <- rexp(n)
-			yb <- w*y
-			xb <- w*x
+			yb <- y
+			xb <- x
 			cb <- c
 			}
 		else

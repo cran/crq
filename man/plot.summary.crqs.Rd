@@ -4,9 +4,7 @@
 \description{This function plots the quantile treatment effects 
 from a crq fit. It also (optionally) plots the corresponding Cox model 
 estimates and a bootstrap confidence band.} 
-\usage{
-plot.summary.crqs(x,  nrow = 3, ncol = 3,  CoxPHit = NULL, ...)
-}
+\usage{ \method{plot}{summary.crqs}(x,  nrow = 3, ncol = 3,  CoxPHit = NULL, ...) }
 \arguments{
   \item{x}{An object of class summary.crqs produced by \code{summary.crq}.} 
   \item{CoxPHit}{An object of class coxph produced by \code{coxph}, by

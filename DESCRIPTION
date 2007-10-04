@@ -1,6 +1,6 @@
 Package: crq
-Version: 0.2
-Date: 2006-04-08
+Version: 0.3
+Date: 2007-10-04
 Title: Censored Quantile Regression
 Author: Stephen Portnoy <portnoy@stat.uiuc.edu>, with
   contributions from Tereza Neocleous <neocleou@uiuc.edu>
@@ -11,4 +11,4 @@ Maintainer: Roger Koenker <rkoenker@uiuc.edu>
 Description: Quantile regression for randomly censored data 
 License: GPL (version 2 or later)
 URL: http://www.stat.uiuc.edu/~portnoy/steve.html
-Packaged: Sat Apr  8 10:59:25 2006; roger
+Packaged: Thu Oct  4 13:49:21 2007; roger

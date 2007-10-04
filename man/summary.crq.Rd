@@ -7,7 +7,7 @@
 \description{Confidence intervals and standard error computations for
 censored quantile regression.}
 \usage{
-summary.crq(object, taus = 1:4/5, alpha = .1, se = "boot", ...)
+\method{summary}{crq}(object, taus = 1:4/5, alpha = .1, se = "boot", ...)
 }
 \arguments{
   \item{object}{An object of class \code{crq}.}
